@@ -4,7 +4,7 @@
 
     <string name="app_name_start">Torrent</string>
     <string name="app_name_end">Freak Reader</string>
-    <string name="app_version">Version 2.0</string>
+    <string name="app_version">Version 2.0.1</string>
     <string name="app_credits"><a href="http://github.com/xadet/torrentfreak-reader">TorrentFreak Reader</a> is created by <a href="jackwakefield91@gmail.com">Jack Wakefield</a> and released under the GPLv3 license.</string>
     <string name="content_credits">Articles are retrieved from the <a href="http://torrentfreak.com/">TorrentFreak</a> website and are licensed under the <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 License</a>.</string>
     <string name="backend_credits">The backend uses the <a href="https://github.com/rtyley/roboguice-sherlock">roboguice-sherlock</a> library created by Roberto Tyley and licensed under the Apache License, Version 2.0, as well as the <a href="http://jsoup.org/">jsoup</a> library created by Jonathan Hedley and licensed under the MIT License and the <a href="https://github.com/commonsguy/cwac-endless">CWAC EndlessAdapter</a> library created by Mark Murphy and licensed under the Apache License, Version 2.0.</string>
