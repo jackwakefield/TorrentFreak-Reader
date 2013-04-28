@@ -142,8 +142,17 @@ public class ArticleListFragment extends RoboSherlockListFragment {
         setListAdapter(adapter);
 
         // retrieve the selected category and create the article list provider
-        final CategoryItem category = categoryManager.getSelectedCategory();
-        articleProvider = category.createProvider();
+        CategoryItem category = categoryManager.getSelectedCategory();
+
+        // if no category has been selected, use the primary category
+        if (category == null) {
+            category = categoryManager.getPrimaryCategory();
+        }
+
+        // ensure the category exists
+        if (category != null) {
+            articleProvider = category.createProvider();
+        }
     }
 
     @Override
@@ -273,9 +282,18 @@ public class ArticleListFragment extends RoboSherlockListFragment {
                     retrievedArticles.addAll(articleProvider.fetch());
                 } catch (Exception ex) {
                     // attempt to retrieve stored articles for the selected category
-                    final CategoryItem category = categoryManager.getSelectedCategory();
-                    final List<ArticleItem> cachedArticles =
-                        articleStorage.getArticlesByCategory(category, page);
+                    CategoryItem category = categoryManager.getSelectedCategory();
+                    List<ArticleItem> cachedArticles = null;
+
+                    // if no category has been selected, use the primary category
+                    if (category == null) {
+                        category = categoryManager.getPrimaryCategory();
+                    }
+
+                    // ensure the category exists
+                    if (category != null) {
+                        cachedArticles = articleStorage.getArticlesByCategory(category, page);
+                    }
 
                     // determine whether any cached articles exist
                     if (cachedArticles != null && cachedArticles.size() > 0) {
