@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/article_list_layout"
+    android:background="@drawable/background_pattern"
+    android:orientation="vertical">
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:listSelector="@drawable/list_selector_holo_dark"
+        android:layout_weight="1"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="@android:color/transparent" />
+</LinearLayout>

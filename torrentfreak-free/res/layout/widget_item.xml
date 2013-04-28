@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_pattern"
+    android:id="@+id/widget_item"
+    android:layout_width="150dp"
+    android:layout_height="130dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/widget_item_title"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp" />
+    <LinearLayout
+        android:id="@+id/bottom_border"
+        android:background="@color/widget_item_border"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_alignParentBottom="true">
+    </LinearLayout>
+    <LinearLayout
+        android:background="@color/widget_item_details_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_above="@id/bottom_border"
+        android:paddingBottom="1dp">
+        <ImageView
+            android:id="@+id/date_icon"
+            android:scaleType="fitXY"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/ic_action_calendar_day"
+            android:contentDescription="@string/date_icon_description" />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/widget_item_detail"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+    </LinearLayout>
+</RelativeLayout>

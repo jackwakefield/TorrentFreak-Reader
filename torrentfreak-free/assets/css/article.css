@@ -1,0 +1,160 @@
+p, #post-supp p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #FF3C78;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0;
+}
+
+h2 {
+    color: #636363;
+    font-size: 18px;
+    margin: 9px 0 0;
+}
+
+h3 {
+    color: #FF3C78;
+    font-size: 20px;
+    margin: 0px 0 0;
+}
+
+h4 {
+    color: #636363;
+    font-size: 15px;
+    margin: 3px 0 -6px;
+}
+
+h5 {
+    color:  #636363;
+    font-size: 13px;
+}
+
+header h4 {
+    font-size: 29px;
+    line-height: 34px;
+    margin: 0;
+}
+
+blockquote {
+    float: left;
+    margin: 20px 0;
+    background: rgba(253,243,231,.6);
+    border: 1px solid #fdf3e7;
+    padding: 20px;
+}
+
+blockquote p {
+    color: #5F5C59;
+    float: left;
+    margin: -3px 0 0 8px;
+    width: 93%;
+}
+
+img.alignleft, img[align="left"] {
+    float: left;
+    margin: 10px 20px 15px 0;
+}
+
+img.alignright, img[align="right"] {
+    float: right;
+    margin: 10px 0 15px 20px;
+}
+
+span.left {
+    display: block;
+    float: left;
+    height: 38px;
+    text-indent: -9999px;
+    width: 62px;
+}
+
+span.right {
+    display: block;
+    float: right;
+    height: 27px;
+    margin: 4px -18px 0 0;
+    text-indent: -9999px;
+    width: 62px;
+}
+
+div.author {
+    margin-top: 8px;
+}
+
+div.date {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+table.css {
+    border: 1px solid #999;
+    table-layout: fixed;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+table.css tbody tr {
+    color: #333;
+    background: #E9E9E9;
+}
+
+table.css tbody tr.zebra {
+    color: #333;
+    background: #E3E3E3;
+}
+
+table.hover tbody tr:hover {
+    color: #333;
+    background: #FFF;
+}
+
+table.css tbody td, table.css tbody th {
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+table.css tbody th {
+    text-align: left;
+}
+
+table.css tbody td.number, table.css thead th.number {
+    text-align: right;
+}
+
+table.zebra tbody td, table.zebra tbody th {
+    border: none;
+}
+
+table.css thead tr {
+    color: #FFF;
+    background: #666;
+    font-weight: bold;
+    text-align: left;
+}
+
+table.css tfoot tr {
+    color: #FFF;
+    background: #999;
+    font-size: .8em;
+}
+
+table.css tfoot td, table.css thead th {
+    padding: 0 5px;
+}
+
+table.css caption {
+    font-size: .8em;
+    caption-side:top;
+    text-align:right;
+    margin-bottom: 5px;
+}

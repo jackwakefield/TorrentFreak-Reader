@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General"
+        android:key="general">
+        <CheckBoxPreference
+            android:key="confirm_exit"
+            android:summary="Show a confirmation dialog before exiting"
+            android:title="Confirm exit"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Articles"
+        android:key="articles">
+        <CheckBoxPreference
+            android:key="mark_as_read"
+            android:title="Mark as read"
+            android:summary="Mark articles as read once viewed"
+            android:defaultValue="true" />
+        <Preference
+            android:key="clear_article_history"
+            android:title="Clear article history"
+            android:summary="Mark all articles as unread" />
+        <Preference
+            android:key="clear_saved_articles"
+            android:title="Clear article database"
+            android:summary="Clear the database used to store articles" />
+        <Preference
+            android:key="clear_web_cache"
+            android:title="Clear web cache"
+            android:summary="Clear the cache used to store assets when viewing articles" />
+    </PreferenceCategory>
+</PreferenceScreen>

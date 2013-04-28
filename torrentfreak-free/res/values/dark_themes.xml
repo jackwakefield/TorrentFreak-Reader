@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="dark" parent="@style/Theme.Sherlock">
+    <item name="android:editTextStyle">@style/EditTextdark</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxdark</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtondark</item>
+
+    <item name="android:buttonStyle">@style/Buttondark</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtondark</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerdark</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnerdark.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemdark</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBardark</item>
+
+    <item name="android:buttonStyleToggle">@style/Toggledark</item>
+
+    <item name="android:listViewStyle">@style/ListViewdark</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewdark.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemdark</item>
+
+  </style>
+
+</resources>

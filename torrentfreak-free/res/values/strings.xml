@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TorrentFreak Reader</string>
+
+    <string name="app_name_start">Torrent</string>
+    <string name="app_name_end">Freak Reader</string>
+    <string name="app_version">Version 2.0</string>
+    <string name="app_credits"><a href="http://github.com/xadet/torrentfreak-reader">TorrentFreak Reader</a> is created by <a href="jackwakefield91@gmail.com">Jack Wakefield</a> and released under the GPLv3 license.</string>
+    <string name="content_credits">Articles are retrieved from the <a href="http://torrentfreak.com/">TorrentFreak</a> website and are licensed under the <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 License</a>.</string>
+    <string name="backend_credits">The backend uses the <a href="https://github.com/rtyley/roboguice-sherlock">roboguice-sherlock</a> library created by Roberto Tyley and licensed under the Apache License, Version 2.0, as well as the <a href="http://jsoup.org/">jsoup</a> library created by Jonathan Hedley and licensed under the MIT License and the <a href="https://github.com/commonsguy/cwac-endless">CWAC EndlessAdapter</a> library created by Mark Murphy and licensed under the Apache License, Version 2.0.</string>
+    <string name="style_credits">Styles generated from the <a href="http://android-holo-colors.com/">Android Holo Colors Generator</a> created by Jérôme Van Der Linden and the <a href="http://jgilfelt.github.com/android-actionbarstylegenerator/">Android Action Bar Style Generator</a> created by Jeff Gilfelt are licensed under the Creative Commons Attribution 3.0 Unported License.</string>
+    <string name="interface_credits">The user interface uses the <a href="http://viewpagerindicator.com/">ViewPageIndicator</a> and <a href="http://actionbarsherlock.com/">ActionBarSherlock</a> libraries both created by Jake Wharton and licensed under the Apache License, Version 2.0, as well as the <a href="https://github.com/keyboardsurfer/Crouton">Crouton</a> library created by Benjamin Weiss and licensed under the Apache License, Version 2.0 and the <a href="https://github.com/jfeinstein10/SlidingMenu/">SlidingMenu</a> library created by Jeremy Feinstein and licensed under the Apache License, Version 2.0.</string>
+
+    <string name="confirm_exit_title">Confirm Exit</string>
+    <string name="confirm_exit_negative">Cancel</string>
+    <string name="confirm_exit_positive">Exit</string>
+
+    <string name="widget_retrieving_articles">Retrieving articles&#8230;</string>
+
+    <string name="article_content_title">Article</string>
+    <string name="article_comments_title">Comments</string>
+    <string name="share_article">Share article</string>
+
+    <string name="article_comments_suffix">comment</string>
+    <string name="article_comments_suffix_plural">comments</string>
+
+    <string name="about_activity_title">About</string>
+    <string name="licenses_activity_title">Licenses</string>
+    <string name="settings_activity_title">Settings</string>
+
+    <string name="clear_article_history_title">Clear article history</string>
+    <string name="clear_article_history_message">Are you sure you wish to clear the article history?</string>
+    <string name="clear_article_history_negative">Cancel</string>
+    <string name="clear_article_history_positive">Confirm</string>
+    <string name="article_history_cleared">Article history cleared</string>
+
+    <string name="clear_article_database_title">Clear article database</string>
+    <string name="clear_article_database_message">Are you sure you wish to clear the article database?\nIf no connection is available then any previously viewed articles will no longer be available.</string>
+    <string name="clear_article_database_negative">Cancel</string>
+    <string name="clear_article_database_positive">Confirm</string>
+    <string name="article_database_cleared">Article database cleared</string>
+
+    <string name="clear_web_cache_title">Clear web cache</string>
+    <string name="clear_web_cache_message">Are you sure you wish to clear the web cache?\nIf no connection is available then any cached images will no longer display.</string>
+    <string name="clear_web_cache_negative">Cancel</string>
+    <string name="clear_web_cache_positive">Confirm</string>
+    <string name="web_cache_cleared">Web cache cleared</string>
+
+    <string name="gplv3_license">GPLv3</string>
+    <string name="ccbync3_license">CC BY-NC 3.0</string>
+    <string name="ccby3_license">CC BY 3.0</string>
+    <string name="apache2_license">Apache 2.0</string>
+    <string name="mit_license">MIT License</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="about_menu_item">About</string>
+    <string name="licenses_menu_item">Licenses</string>
+
+    <string name="main_menu_refresh">Refresh</string>
+    <string name="article_menu_share">Share</string>
+    <string name="article_menu_refresh">Refresh</string>
+    <string name="article_menu_open">Open in Browser</string>
+
+    <string name="date_icon_description">Date</string>
+    <string name="comment_icon_description">Comments</string>
+
+    <string name="stack_widget_activity_title">Create Widget</string>
+    <string name="create_widget">Create widget</string>
+</resources>

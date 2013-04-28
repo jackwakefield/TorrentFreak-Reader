@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#FFFF3C78</color>
+    <color name="dark_pink">#BBFF3C78</color>
+    <color name="light_grey">#cccccc</color>
+
+    <color name="crouton_info">#BBFF3C78</color>
+    <color name="crouton_error">#FFFF3C3C</color>
+    <color name="progress_bar_filter">#FFFF3C78</color>
+
+    <color name="sliding_menu_selected">@color/dark_pink</color>
+    <color name="sliding_menu_normal">@android:color/transparent</color>
+
+    <color name="about_app_name_start">@android:color/white</color>
+    <color name="about_app_name_end">@color/pink</color>
+    <color name="about_text">@android:color/white</color>
+    <color name="about_text_link">@color/pink</color>
+
+    <color name="article_item_background">#08FFFFFF</color>
+    <color name="article_item_title">@android:color/white</color>
+    <color name="article_item_details_background">#04FFFFFF</color>
+    <color name="article_item_details">@color/light_grey</color>
+
+    <color name="article_comments_background">#FF0A0A0A</color>
+    <color name="article_content_background">#FF0A0A0A</color>
+    <color name="license_background">#FF0A0A0A</color>
+
+    <color name="widget_item_title">@android:color/white</color>
+    <color name="widget_item_border">@color/dark_pink</color>
+    <color name="widget_item_detail">@android:color/white</color>
+    <color name="widget_item_details_background">#08FFFFFF</color>
+    <color name="widget_retrieving">@android:color/white</color>
+
+    <color name="fragment_separator">#50222222</color>
+</resources>

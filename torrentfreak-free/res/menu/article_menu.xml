@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/share"
+        android:showAsAction="ifRoom"
+        android:title="@string/article_menu_share"
+        android:icon="@drawable/ic_action_share" />
+    <item
+        android:id="@+id/refresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/article_menu_refresh"
+        android:icon="@drawable/ic_action_reload" />
+    <item
+        android:id="@+id/open"
+        android:showAsAction="never"
+        android:title="@string/article_menu_open" />
+</menu>

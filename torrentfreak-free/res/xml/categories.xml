@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories>
+    <category primary="1">
+        <id>1</id>
+        <name>Latest News</name>
+        <type>latest-news</type>
+        <url>http://torrentfreak.com/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_home</icon>
+    </category>
+    <category>
+        <id>2</id>
+        <name>News Bits</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/bits/page/%d/</url>
+        <per_page>31</per_page>
+        <icon>drawable/ic_action_document</icon>
+    </category>
+    <category>
+        <id>3</id>
+        <name>Anti-Piracy</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/anti-piracy-gangs/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_halt</icon>
+    </category>
+    <category>
+        <id>4</id>
+        <name>BitTorrent Software</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/bittorrent-clients/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_laptop</icon>
+    </category>
+    <category>
+        <id>5</id>
+        <name>Breaking News</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/breaking-news/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_star_10</icon>
+    </category>
+    <category>
+        <id>6</id>
+        <name>Copyright Issues</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/copyright-issues/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_record</icon>
+    </category>
+    <category>
+        <id>7</id>
+        <name>Legal Issues</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/legal-issues/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_book</icon>
+    </category>
+    <category>
+        <id>8</id>
+        <name>Opinion</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/opinion/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_user</icon>
+    </category>
+    <category>
+        <id>9</id>
+        <name>Pirate Talk</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/pirate-talk/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_monolog</icon>
+    </category>
+    <category>
+        <id>10</id>
+        <name>Politics and Ideology</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/politics-and-ideology/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_flag</icon>
+    </category>
+    <category>
+        <id>11</id>
+        <name>Torrent Sites</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/torrent-sites/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_globe</icon>
+    </category>
+    <category>
+        <id>12</id>
+        <name>Tutorials and How To</name>
+        <type>category</type>
+        <url>http://torrentfreak.com/category/tutorial-howto/page/%d/</url>
+        <per_page>7</per_page>
+        <icon>drawable/ic_action_present</icon>
+    </category>
+</categories>
