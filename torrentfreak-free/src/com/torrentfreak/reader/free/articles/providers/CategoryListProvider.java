@@ -97,7 +97,7 @@ public class CategoryListProvider extends ArticleListProvider {
         }
 
         // retrieve the date element
-        final Element dateElement = articleElement.select("footer ul li:nth-child(3)").first();
+        final Element dateElement = articleElement.select("footer ul .date").first();
 
         // ensure the date element exists
         if (dateElement == null) {
