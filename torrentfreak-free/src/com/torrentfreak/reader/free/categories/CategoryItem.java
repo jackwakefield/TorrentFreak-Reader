@@ -24,6 +24,7 @@ import android.os.Parcelable;
 import com.torrentfreak.reader.free.articles.providers.ArticleListProvider;
 import com.torrentfreak.reader.free.articles.providers.CategoryListProvider;
 import com.torrentfreak.reader.free.articles.providers.LatestNewsListProvider;
+import com.torrentfreak.reader.free.articles.providers.NewsBitsListProvider;
 import com.torrentfreak.reader.free.categories.CategoryType;
 
 public class CategoryItem implements Parcelable {
@@ -137,6 +138,10 @@ public class CategoryItem implements Parcelable {
         // create the list provider relevant to the category type
         if (type == CategoryType.LatestNews) {
             return new LatestNewsListProvider(this);
+        }
+
+        if (type == CategoryType.NewsBits) {
+            return new NewsBitsListProvider(this);
         }
 
         return new CategoryListProvider(this);

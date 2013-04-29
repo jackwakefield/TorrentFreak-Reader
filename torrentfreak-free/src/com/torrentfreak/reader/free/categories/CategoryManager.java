@@ -182,6 +182,8 @@ public class CategoryManager {
                         } else if (currentTag.equals("type")) {
                             if (value.equals("latest-news")) {
                                 currentCategory.setType(CategoryType.LatestNews);
+                            } else if (value.equals("news-bits")) {
+                                currentCategory.setType(CategoryType.NewsBits);
                             } else {
                                 currentCategory.setType(CategoryType.Category);
                             }

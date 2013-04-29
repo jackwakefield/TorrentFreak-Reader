@@ -25,7 +25,8 @@ import java.util.Map;
 
 public enum CategoryType {
     Category(0),
-    LatestNews(1);
+    LatestNews(1),
+    NewsBits(2);
 
     /**
      * The category types mapped to their numerical values.

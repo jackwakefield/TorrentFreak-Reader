@@ -11,7 +11,7 @@
     <category>
         <id>2</id>
         <name>News Bits</name>
-        <type>category</type>
+        <type>news-bits</type>
         <url>http://torrentfreak.com/category/bits/page/%d/</url>
         <per_page>31</per_page>
         <icon>drawable/ic_action_document</icon>
